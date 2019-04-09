@@ -9,6 +9,7 @@ spherecluster, https://github.com/jasonlaska/spherecluster
 Multicore-TSNE, https://github.com/DmitryUlyanov/Multicore-TSNE
 skicit-learn
 librosa
+joblib
 ```
 
 
