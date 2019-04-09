@@ -21,6 +21,6 @@ CuDNN version: 7.2.1
 GPU: Quadro K2200
 ```
 
-SphereDiar_demo.ipynb provides system usage instructions.
+Check SphereDiar_demo.ipynb for further usage instructions.
 
 
