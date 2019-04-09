@@ -1,4 +1,4 @@
-# SphereDiar
+# SphereDiar: an efficient speaker diarization system for meeting data
 
 To use the system, setup an environment with:
 
