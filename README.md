@@ -1,6 +1,6 @@
 # SphereDiar
 
-To setup the system, you need:
+To use the system, setup an environment with:
 
 ```
 Keras >= 2.2.4 
@@ -12,7 +12,13 @@ librosa
 ```
 
 
-The system is designed to be run with GPU, 
+The system is designed to be run with GPU, atleast following CUDA configuration should work (with Ubuntu 16.04):
+
+```
+CUDA version: 9.0
+CuDNN version: 7.2.1
+GPU: Quadro K2200
+```
 
 
 
