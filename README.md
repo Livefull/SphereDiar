@@ -23,8 +23,8 @@ GPU: Quadro K2200
 
 Check SphereDiar_demo.ipynb for further usage instructions.
 
-## Results:
+## Speaker verification results:
 
-EER = 5.2 % with Voxceleb1 verification test set
+EER = 5.2 % with Voxceleb1 verification test set using SphereDiar_200. 
 
 
