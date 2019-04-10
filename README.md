@@ -23,7 +23,7 @@ GPU: Quadro K2200
 
 Check SphereDiar_demo.ipynb for further usage instructions.
 
-# Results:
+## Results:
 
 EER = 5.2 % with Voxceleb1 verification test set
 
