@@ -21,7 +21,7 @@ CuDNN version: 7.2.1
 GPU: Quadro K2200
 ```
 
-Check SphereDiar_demo.ipynb for further usage instructions.
+Check demo.ipynb for further usage instructions.
 
 ## Speaker verification results:
 
