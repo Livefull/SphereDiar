@@ -25,6 +25,14 @@ Check demo.ipynb for further usage instructions.
 
 ## Speaker verification results:
 
-EER = 5.2 % with Voxceleb1 verification test set using SphereDiar_200. 
+
+
+| Model  | EER (%) |
+| ------------- | ------|
+| SphereSpeaker  | 6.2  |
+| SphereSpeaker 200  | 5.2 |
+| Current best  | 3.2 |
+
+
 
 
