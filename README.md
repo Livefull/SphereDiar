@@ -31,5 +31,7 @@ Check demo.ipynb for further usage instructions.
 | SphereSpeaker  | 6.2  |
 | SphereSpeaker 200  | 5.2 |
 
+Current best score with this set is 3.2 % https://arxiv.org/pdf/1902.10107.pdf. 
+
 
 
