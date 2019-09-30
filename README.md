@@ -10,6 +10,7 @@ Multicore-TSNE, https://github.com/DmitryUlyanov/Multicore-TSNE
 scikit-learn
 librosa
 joblib
+wavefile
 ```
 
 
