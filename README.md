@@ -38,9 +38,9 @@ Check demo.ipynb for further usage instructions.
 
 ### Speaker verification results with Voxceleb1 test set:
 
-| Model  | Frame length (s) | Distance | EER (%) |
+| Model  | Aggregation | Distance metric | EER (%) |
 | ------------- |-----| ------| ---- |
-| SphereSpeaker  |2| Cosine | 6.2  |
-| SphereSpeaker 200 |2| Cosine | 5.2 |
-| Current best |2| Cosine | 2.2 |
+| SphereSpeaker  |Average| Cosine | 6.2  |
+| SphereSpeaker 200 |Average| Cosine | 5.2 |
+| Current best |Average| Cosine | 2.2 |
 
