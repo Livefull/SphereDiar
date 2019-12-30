@@ -26,9 +26,9 @@ Check demo.ipynb for further usage instructions.
 
 ### Speaker verification results with Voxceleb1 test set:
 
-
-| Model  | Frame length (s) | Aggregation | EER (%) |
+| Model  | Frame length (s) | Distance | EER (%) |
 | ------------- |-----| ------| ---- |
-| SphereSpeaker  |2| Spherical K-means cluster center | 6.2  |
-| SphereSpeaker 200 |2| Spherical K-means cluster center | 5.2 |
+| SphereSpeaker  |2| Cosine | 6.2  |
+| SphereSpeaker 200 |2| Cosine | 5.2 |
+| Current best |2| Cosine | 2.2 |
 
