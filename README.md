@@ -13,15 +13,6 @@ joblib
 wavefile
 ```
 
-
-The system is designed to be run with GPU, following CUDA configuration should work (with Ubuntu 16.04):
-
-```
-CUDA version: 9.0
-CuDNN version: 7.2.1
-GPU: Quadro K2200
-```
-
 Citation:
 
 ```
