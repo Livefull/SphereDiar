@@ -4,7 +4,7 @@ To use the system, setup an environment with:
 
 ```
 Keras >= 2.2.4 
-Tensorflow-gpu = 1.10.1
+Tensorflow-gpu >= 1.10.1
 spherecluster, https://github.com/jasonlaska/spherecluster
 Multicore-TSNE, https://github.com/DmitryUlyanov/Multicore-TSNE
 scikit-learn
