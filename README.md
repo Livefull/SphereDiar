@@ -26,9 +26,7 @@ librosa
 joblib
 wavefile
 ```
-
-
-Check demo.ipynb for further usage instructions.
+**demo.ipynb** illustrated how the speaker diarization system works. **embed.py**
 
 ### Performance of the embedding models with Voxceleb1 test set
 
