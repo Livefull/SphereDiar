@@ -20,7 +20,7 @@ In addition, the repository also contains an additional speaker embedding model 
 | SphereSpeaker 200 | Voxceleb2 (2000) |Average| Cosine | 5.2 |
 | Current best | Voxceleb2 | Average| Cosine | 2.2 |
 
-Each of these scores has been calculated the similar way as discussed in the "combining.pdf".
+Each of these scores has been calculated the similar way as in the "combining.pdf".
 
 
 ### Getting started
