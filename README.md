@@ -37,7 +37,7 @@ python embed.py --signal /path/to/your/signal --dest /path/to/your/embedding/dir
 ### Performance of the embedding models with Voxceleb1 test set
 
 | Model  | Training set | Aggregation | Distance metric | EER (%) |
-| ------------- |-----| ------| ---- |
+| -------------|---- |-----| ------| ---- |
 | SphereSpeaker |Voxceleb2 (2000) |Average| Cosine | 6.2  |
 | SphereSpeaker 200 | Voxceleb2 (2000) |Average| Cosine | 5.2 |
 | Current best | Voxceleb2 | Average| Cosine | 2.2 |
