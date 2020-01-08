@@ -12,6 +12,8 @@ This repository is based on the following paper:
 }
 ```
 
+
+
 ### Getting started
 
 To use the tools in this repository, setup an environment with:
@@ -34,11 +36,11 @@ python embed.py --signal /path/to/your/signal --dest /path/to/your/embedding/dir
 
 ### Performance of the embedding models with Voxceleb1 test set
 
-| Model  | Aggregation | Distance metric | EER (%) |
+| Model  | Training set | Aggregation | Distance metric | EER (%) |
 | ------------- |-----| ------| ---- |
-| SphereSpeaker  |Average| Cosine | 6.2  |
-| SphereSpeaker 200 |Average| Cosine | 5.2 |
-| Current best |Average| Cosine | 2.2 |
+| SphereSpeaker |Voxceleb2 (2000) |Average| Cosine | 6.2  |
+| SphereSpeaker 200 | Voxceleb2 (2000) |Average| Cosine | 5.2 |
+| Current best | Voxceleb2 | Average| Cosine | 2.2 |
 
 Each of these scores has been calculated the similar way as discussed in the "combining.pdf".
 
