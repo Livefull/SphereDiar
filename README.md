@@ -28,6 +28,10 @@ wavefile
 ```
 Then, check **demo.ipynb** to get the basic idea how to use SphereDiar.py for speaker diarization. 
 
+'''
+python embed.py
+'''
+
 ### Performance of the embedding models with Voxceleb1 test set
 
 | Model  | Aggregation | Distance metric | EER (%) |
