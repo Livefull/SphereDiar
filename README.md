@@ -35,3 +35,5 @@ Check demo.ipynb for further usage instructions.
 | SphereSpeaker 200 |Average| Cosine | 5.2 |
 | Current best |Average| Cosine | 2.2 |
 
+Each of these scores has been calculated the similar way as discussed in the "combining.pdf".
+
