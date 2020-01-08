@@ -31,7 +31,7 @@ wavefile
 Then, check **demo.ipynb** to get the basic idea how to use SphereDiar.py for speaker diarization. 
 
 ```
-python embed.py --signal /path/to/your/signal --dest /path/to/your/embedding/directory
+python embed.py --signal /path/to/your/wav_file --dest /path/to/your/embedding/directory
 ```
 
 ### Performance of the embedding models with Voxceleb1 test set
