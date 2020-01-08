@@ -1,3 +1,5 @@
+### SphereDiar:
+
 This repository is based on the following paper:
 
 ```
@@ -10,6 +12,7 @@ This repository is based on the following paper:
 }
 ```
 
+### Getting started:
 
 To use the tools in this repository, setup an environment with:
 
