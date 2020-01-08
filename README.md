@@ -12,6 +12,13 @@ This repository is based on the following paper:
 }
 ```
 
+| Model  | Training set | Aggregation | Distance metric | EER (%) |
+| -------------|---- |-----| ------| ---- |
+| SphereSpeaker |Voxceleb2 (2000) |Average| Cosine | 6.2  |
+| SphereSpeaker 200 | Voxceleb2 (2000) |Average| Cosine | 5.2 |
+| Current best | Voxceleb2 | Average| Cosine | 2.2 |
+
+Each of these scores has been calculated the similar way as discussed in the "combining.pdf".
 
 
 ### Getting started
@@ -35,13 +42,7 @@ python embed.py --signal /path/to/your/wav_file --dest /path/to/your/embedding/d
 ```
 Notice that the script "embed.py" is here only for demonstration purposes, that is, it can not be used to embed multiple audio files.
 
-### Performance of the embedding models with Voxceleb1 test set
 
-| Model  | Training set | Aggregation | Distance metric | EER (%) |
-| -------------|---- |-----| ------| ---- |
-| SphereSpeaker |Voxceleb2 (2000) |Average| Cosine | 6.2  |
-| SphereSpeaker 200 | Voxceleb2 (2000) |Average| Cosine | 5.2 |
-| Current best | Voxceleb2 | Average| Cosine | 2.2 |
 
-Each of these scores has been calculated the similar way as discussed in the "combining.pdf".
+
 
