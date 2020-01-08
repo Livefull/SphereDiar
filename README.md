@@ -31,25 +31,6 @@ wavefile
 Check demo.ipynb for further usage instructions.
 
 ### Performance of the embedding models with Voxceleb1 test set
-os.chdir(root)
-noise_files = os.listdir()
-
-# Get segments
-noise_segs = []
-seg_idfiers = []
-print("Loading augmentation data...")
-for index, file in enumerate(noise_files):
-
-    # Print progress
-    if index % 1000 == 0:
-        print(index)
-    
-    seg_idfier = file.split("-")[0]
-    noise_segs.append(np.load(file))
-    seg_idfiers.append(seg_idfier)
-    
-seg_idfiers = np.array(seg_idfiers)
-noise_segs = np.array(noise_segs)
 
 | Model  | Aggregation | Distance metric | EER (%) |
 | ------------- |-----| ------| ---- |
