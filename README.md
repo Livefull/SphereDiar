@@ -27,7 +27,7 @@ wavefile
 
 Check demo.ipynb for further usage instructions.
 
-### Speaker verification results with Voxceleb1 test set:
+### Performance of the embedding models with Voxceleb1 test set:
 
 | Model  | Aggregation | Distance metric | EER (%) |
 | ------------- |-----| ------| ---- |
