@@ -26,7 +26,7 @@ librosa
 joblib
 wavefile
 ```
-**demo.ipynb** illustrated how the speaker diarization system works. **embed.py**
+Then, check **demo.ipynb** to get the basic idea of different tools provided in SphereDiar.py. 
 
 ### Performance of the embedding models with Voxceleb1 test set
 
