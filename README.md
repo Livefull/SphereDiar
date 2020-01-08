@@ -1,6 +1,17 @@
-# SphereDiar: an efficient speaker diarization system for meeting data
+This repository is based on the following paper:
 
-To use the system, setup an environment with:
+```
+@inproceedings{kaseva2019spherediar,
+  title = {SphereDiar - an efficient speaker diarization system for meeting data},
+  author = {Tuomas Kaseva and Aku Rouhe 
+            and Mikko Kurimo},
+  booktitle = {2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
+  year = {2019},
+}
+```
+
+
+To use the tools in this repository, setup an environment with:
 
 ```
 Keras >= 2.2.4 
@@ -13,17 +24,6 @@ joblib
 wavefile
 ```
 
-Citation:
-
-```
-@inproceedings{kaseva2019spherediar,
-  title = {SphereDiar - an efficient speaker diarization system for meeting data},
-  author = {Tuomas Kaseva and Aku Rouhe 
-            and Mikko Kurimo},
-  booktitle = {2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
-  year = {2019},
-}
-```
 
 Check demo.ipynb for further usage instructions.
 
