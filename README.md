@@ -12,6 +12,8 @@ This repository is based on the following paper:
 }
 ```
 
+In addition, the repository also contains an additional speaker embedding model "current_best.h5" which is based on the rejected journal article "combining.pdf". 
+
 | Model  | Training set | Aggregation | Distance metric | EER (%) |
 | -------------|---- |-----| ------| ---- |
 | SphereSpeaker |Voxceleb2 (2000) |Average| Cosine | 6.2  |
