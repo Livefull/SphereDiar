@@ -28,12 +28,12 @@ librosa
 joblib
 wavefile
 ```
-Then, check **demo.ipynb** to get the basic idea how to use SphereDiar.py for speaker diarization. In order to transform a given audio file to speaker embeddings with "current_best.h5" simply use:
+Then, check **demo.ipynb** to get the basic idea how to use SphereDiar.py for speaker diarization. In order to transform a given audio file to speaker embeddings with "current_best.h5" simply try:
 
 ```
 python embed.py --signal /path/to/your/wav_file --dest /path/to/your/embedding/directory
 ```
-Notice that the script "embed.py" is here only for demonstration purposes.
+Notice that the script "embed.py" is here only for demonstration purposes, that is, it can not be used to embed multiple audio files.
 
 ### Performance of the embedding models with Voxceleb1 test set
 
