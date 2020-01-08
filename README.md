@@ -22,8 +22,7 @@ Each of these scores has been calculated the similar way as discussed in the "co
 
 
 ### Getting started
-
-To use the tools in this repository, setup an environment with:
+First, setup an environment with:
 
 ```
 Keras >= 2.2.4 
