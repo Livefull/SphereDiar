@@ -30,7 +30,7 @@ wavefile
 
 Check demo.ipynb for further usage instructions.
 
-### Performance of the embedding models with Voxceleb1 test setroot = "/teamwork/t40511_asr/p/spherediar/data/musan/noise_segments"
+### Performance of the embedding models with Voxceleb1 test set
 os.chdir(root)
 noise_files = os.listdir()
 
