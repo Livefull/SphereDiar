@@ -1,4 +1,4 @@
-### SphereDiar:
+### SphereDiar
 
 This repository is based on the following paper:
 
@@ -12,7 +12,7 @@ This repository is based on the following paper:
 }
 ```
 
-### Getting started:
+### Getting started
 
 To use the tools in this repository, setup an environment with:
 
@@ -30,7 +30,26 @@ wavefile
 
 Check demo.ipynb for further usage instructions.
 
-### Performance of the embedding models with Voxceleb1 test set:
+### Performance of the embedding models with Voxceleb1 test setroot = "/teamwork/t40511_asr/p/spherediar/data/musan/noise_segments"
+os.chdir(root)
+noise_files = os.listdir()
+
+# Get segments
+noise_segs = []
+seg_idfiers = []
+print("Loading augmentation data...")
+for index, file in enumerate(noise_files):
+
+    # Print progress
+    if index % 1000 == 0:
+        print(index)
+    
+    seg_idfier = file.split("-")[0]
+    noise_segs.append(np.load(file))
+    seg_idfiers.append(seg_idfier)
+    
+seg_idfiers = np.array(seg_idfiers)
+noise_segs = np.array(noise_segs)
 
 | Model  | Aggregation | Distance metric | EER (%) |
 | ------------- |-----| ------| ---- |
