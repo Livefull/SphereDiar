@@ -15,9 +15,9 @@ This repository is based on the following paper:
 In addition, the repository also contains an additional speaker embedding model "current_best.h5" which is based on the rejected journal article "combining.pdf". The model is very similar to the SphereSpeaker with the main difference being the use of the NetVLAD layer instead of the average pooling layer. Moreover, the model has been trained with the full Voxceleb2 dataset, with additive margin softmax and using SpecAugment style MFCC augmentation. The results with the model and SphereSpeaker models are presented below:
 
 | Model  | Training set | Test set | Aggregation | Distance metric | EER (%) |
-| -------------|---|---- |-----| ------| ---- |
+| -------------|------|-------|-----| ------| ---- |
 | SphereSpeaker |Voxceleb2 (2000) | Voxceleb1-test | Average| Cosine | 6.2  |
-| SphereSpeaker 200 | Voxceleb2 (2000) Voxceleb1-test | Average| Cosine | 5.2 |
+| SphereSpeaker 200 | Voxceleb2 (2000) | Voxceleb1-test | Average| Cosine | 5.2 |
 | Current best | Voxceleb2 | Voxceleb1-test | Average| Cosine | 2.2 |
 
 Each of these scores has been calculated the similar way as in the "combining.pdf".
