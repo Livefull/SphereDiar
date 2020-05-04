@@ -4,7 +4,7 @@ This repository is based on the following paper:
 
 ```
 @inproceedings{kaseva2019spherediar,
-  title = {SphereDiar - an efficient speaker diarization system for meeting data},
+  title = {SphereDiar - an effective speaker diarization system for meeting data},
   author = {Tuomas Kaseva and Aku Rouhe 
             and Mikko Kurimo},
   booktitle = {2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
